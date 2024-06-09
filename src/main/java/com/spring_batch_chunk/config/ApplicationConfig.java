@@ -11,7 +11,7 @@ import java.sql.DriverManager;
 @Configuration
 public class ApplicationConfig {
 
-    @Bean
+   /* @Bean
     public DataSource dataSource() {
         DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
         driverManagerDataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
@@ -20,6 +20,6 @@ public class ApplicationConfig {
         driverManagerDataSource.setPassword("");
 
         return driverManagerDataSource;
-        }
+        }*/
 }
 

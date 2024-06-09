@@ -16,5 +16,6 @@ public class Persona {
 
     @Column(name="last_name")
     private String lastName;
+    private String age;
     private String createAt;
 }
